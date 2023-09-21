@@ -1,0 +1,114 @@
+/* Reset default margin and padding on all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set the background color to pink and text color to black */
+body {
+  background: #ff69b4; /* Pink background color */
+  color: #000000;
+  font-family: "verdana", sans-serif;
+  font-size: 16px;
+}
+
+/* Make sure the content stretches to the full width of the screen */
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header styles */
+#header {
+  /* background: rgb(203, 206, 216) url("../design/header.jpg") 0 0 no-repeat; */
+  height: 100px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  background-color: forestgreen;
+  color: aliceblue;
+}
+
+/* Main menu styles */
+#tabs {
+  background: #ff69b4; /* Pink background color */
+  padding: 10px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#tabs ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+#tabs ul li {
+  margin: 0 10px;
+}
+
+#tabs ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #4b4b4b;
+  padding: 10px 20px;
+  transition: color 0.3s ease-in-out;
+}
+
+#tabs ul li a:hover {
+  color: #7a807c;
+}
+
+/* Page styles */
+#page {
+  background: #ff69b4; /* Pink background color */
+  padding: 10px 0;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Content styles */
+#content {
+  width: 60%; /* Adjust as needed */
+  padding: 20px;
+  float: left; /* Float content to the left */
+}
+
+/* Right column styles */
+#col {
+  width: 40%; /* Right column width */
+  padding: 20px;
+  float: left; /* Float right column to the left */
+}
+
+/* Login panel and forgot password link styles */
+.login {
+  background: #cedbf9; /* Background color for login panel */
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Contact Us division styles (Footer) */
+#contact-us {
+  background: #ff69b4; /* Pink background color */
+  color: #6685cc;
+  text-align: center;
+  padding: 20px 0;
+  clear: both;
+}
+
+/* Remove borders and horizontal lines */
+hr {
+  display: none; /* Hide horizontal lines */
+}
+
+/* Table styles (if needed) */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: none; /* Remove borders from tables */
+}
+
+/* Rest of the styles for specific elements can be added here */
